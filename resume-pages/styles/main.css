@@ -11,8 +11,8 @@ body {
 }
 #pre {
   color: antiquewhite;
-  font-size: xx-large;
-  font-family: monospace;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #main h1 {
@@ -23,19 +23,17 @@ body {
   -webkit-font-smoothing: antialiased;
   box-sizing: inherit;
   font-weight: 600;
-  color: lightsteelblue;
+  color: aliceblue;
   line-height: 1.1;
   margin: 0px;
   font-size: clamp(40px, 8vw, 80px);
 }
 
 #sub {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Cochin, Georgia, Times,
-    "Times New Roman", serif;
+  font-family: "Times New Roman", serif;
   box-sizing: inherit;
   font-weight: 100;
-  color: rgb(202, 234, 255);
+  color: rgb(79, 109, 129);
   line-height: 1.1;
   margin: 0px;
   font-size: 80px;
@@ -159,7 +157,7 @@ body {
   top: 0;
   width: 100%;
   background-color: rgb(10, 24, 47);
-  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(2, 7, 17);;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(2, 7, 17);
   transition: top 1s;
   left: 0;
   z-index: 1;
