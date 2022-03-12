@@ -65,6 +65,58 @@ body {
   color: aliceblue;
 }
 
+#mySidenav a {
+  margin-top: 100px;
+  position: fixed;
+  left: -240px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 250px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#shome {
+  top: 20px;
+  color: rgb(0, 0, 0);
+  background-color: aliceblue;
+}
+#saboutme {
+  top: 70px;
+  color: #555;
+  background-color: aliceblue;
+}
+#sexperience {
+  top: 120px;
+  color: #555;
+  background-color: aliceblue;
+}
+#sprojects {
+  top: 170px;
+  color: #555;
+  background-color: aliceblue;
+}
+#scurrentprojects {
+  top: 220px;
+  color: #555;
+  background-color: aliceblue;
+}
+#scertifications {
+  top: 270px;
+  color: #555;
+  background-color: aliceblue;
+}
+#scontactme {
+  top: 320px;
+  color: #555;
+  background-color: aliceblue;
+}
+
 #title-tag {
   padding: 150px;
   color: aliceblue;
@@ -214,13 +266,12 @@ body {
   opacity: 1;
   right: 0;
 }
-.logo_50{
+.logo_50 {
   width: 50px;
 }
 
-.logo_100{
+.logo_100 {
   width: 100px;
-
 }
 .experience-data {
   padding: 0 18px;
@@ -229,21 +280,18 @@ body {
   transition: max-height 0.2s ease-out;
 }
 
-
-
-.role_title{
+.role_title {
   color: aliceblue;
   font-weight: 400;
   font-size: large;
 }
 
-.company_profile, .responsibilities{
+.company_profile,
+.responsibilities {
   color: aliceblue;
   font-weight: 400;
   font-size: medium;
 }
-
-
 
 #projects {
   display: flex;
@@ -381,7 +429,6 @@ body {
 
 #linkimagessvg li {
   display: block;
-
 }
 
 #linkimagessvg li svg {
