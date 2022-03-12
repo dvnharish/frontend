@@ -6,6 +6,14 @@ body {
   background-color: rgb(10, 24, 47);
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343f4f;
+}
+
 #logosource {
   width: 150px;
   margin-left: auto;
@@ -176,7 +184,7 @@ body {
   border: none;
   color: aliceblue;
   font-weight: 400;
-  font-size: large;
+  font-size: x-large;
   padding: 10px;
   cursor: pointer;
   margin: 5px;
@@ -206,12 +214,36 @@ body {
   opacity: 1;
   right: 0;
 }
+.logo_50{
+  width: 50px;
+}
 
+.logo_100{
+  width: 100px;
+
+}
 .experience-data {
-  display: none;
+  padding: 0 18px;
+  max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+
+
+.role_title{
+  color: aliceblue;
+  font-weight: 400;
+  font-size: large;
+}
+
+.company_profile, .responsibilities{
+  color: aliceblue;
+  font-weight: 400;
+  font-size: medium;
+}
+
+
 
 #projects {
   display: flex;
@@ -249,7 +281,7 @@ body {
   padding: 15px;
   font-size: medium;
   box-shadow: 0px 2px 2px 0px rgb(4, 19, 41);
-  background-color: rgb(8, 28, 59);
+  background-color: rgb(2, 54, 133);
   transition: 2s;
   z-index: 2;
   text-align: justify;
@@ -349,6 +381,7 @@ body {
 
 #linkimagessvg li {
   display: block;
+
 }
 
 #linkimagessvg li svg {
